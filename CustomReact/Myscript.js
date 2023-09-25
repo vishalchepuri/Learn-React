@@ -12,8 +12,6 @@ function customRender(data,mainContainer){
         domElement.setAttribute(prop,data.props[prop])
     }
     mainContainer.appendChild(domElement)
-
-
 }
 
 const data = {
